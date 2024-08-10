@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-17T11:44:38 IST" name="Default suite" finished-at="2023-08-17T11:44:52 IST" duration-ms="13757">
+    <groups>
+    </groups>
+    <test started-at="2023-08-17T11:44:38 IST" name="Default test" finished-at="2023-08-17T11:44:52 IST" duration-ms="13757">
+      <class name="script.StandaloneTest">
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:script.StandaloneTest@4f80542f]" started-at="2023-08-17T11:44:38 IST" name="preCondition" finished-at="2023-08-17T11:44:43 IST" duration-ms="5006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:script.StandaloneTest@4f80542f]" started-at="2023-08-17T11:44:43 IST" name="submitOrder" data-provider="getData" finished-at="2023-08-17T11:44:47 IST" duration-ms="3724" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Abc@1234, email=9480@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:script.StandaloneTest@4f80542f]" started-at="2023-08-17T11:44:47 IST" name="postCondition" finished-at="2023-08-17T11:44:47 IST" duration-ms="197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:script.StandaloneTest@4f80542f]" started-at="2023-08-17T11:44:47 IST" name="preCondition" finished-at="2023-08-17T11:44:51 IST" duration-ms="3982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="getOrderprod(java.lang.String,java.lang.String)[pri:0, instance:script.StandaloneTest@4f80542f]" started-at="2023-08-17T11:44:51 IST" name="getOrderprod" data-provider="dataGet" finished-at="2023-08-17T11:44:51 IST" depends-on-methods="script.StandaloneTest.submitOrder" duration-ms="612" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9480@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Abc@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getOrderprod -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:script.StandaloneTest@4f80542f]" started-at="2023-08-17T11:44:51 IST" name="postCondition" finished-at="2023-08-17T11:44:52 IST" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- script.StandaloneTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
